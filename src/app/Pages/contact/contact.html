@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="flex justify-center mt-2 gap-10">
+        <div class="flex flex-col gap-3 w-150 border p-6 ">
+            <h1 class="font-semibold text-3xl">Billing address</h1>
+        <div class="flex gap-3  ">
+           
+            <div class=" flex flex-col gap-3 w-full" >
+                <label for="">Firstname</label>
+                <div class="relative " > 
+                    <i class="fa-solid fa-user absolute top-2 left-2" ></i>
+                 <input type="text" class="border border-gray-600 px-4 py-1 w-full" ></div>
+               
+            </div>
+                <div class="flex flex-col gap-3 w-full">
+                    <label for="">lastname</label>
+                     <div class="relative " > 
+                    <i class="fa-solid fa-user absolute top-2 left-2" ></i>
+                 <input type="text" class="border border-gray-600 px-4 py-1 w-full" ></div>
+                </div>
+                
+                </div>
+                
+           <label for="" class="block">Username</label>
+                <input type="text" class="border px-4 py-1 border-gray-600 " placeholder="@UserName">
+                 <label for="" class="block">Email</label>
+                <input type="text" class="border  border-gray-600 px-4 py-1" placeholder="You@example.com" >
+                 <label for="" class="block">Address</label>
+                <input type="text" class="border  border-gray-600 px-4 py-1" placeholder="1234 Main St" >
+                  <label for="" class="block">Address (optional)</label>
+                <input type="text" class="border  border-gray-600 px-4 py-1" placeholder="Apartment or Suite" >
+                <div class="flex gap-8">
+                    <div class="flex flex-col">
+                        <label for="" class="block">Country</label>
+               
+               
+                <select name="" id="" class="border border-gray-600 px-4 py-1 w-50">
+                    <option value="">Choose...</option>
+                         <option value="">India</option>
+                              <option value="">China</option>
+                                   <option value="">pakistan</option>
+                                   
+                </select>
+                    </div>
+                 <div class="flex flex-col ">
+                      <label for="" class="block">State</label>
+                
+                
+                <select name="" id="" class ="border border-gray-600 px-4 py-1 w-50">
+                    <option value="">Choose..</option>
+                    <option value="">Kerala</option>
+                    <option value="">UP</option>
+                    <option value="">Orrisa</option>
+                </select>
+                 </div>
+                
+                
+              
+                
+                </div>
+                 <div class="mt-2">
+
+                    <input type="checkbox" >
+                    <label for="" class="ml-2">Shiping Address is same as the billing adress</label>
+                 </div>
+                   <div class="mt-2">
+
+                    <input type="checkbox">
+                    <label for="" class="ml-2">Save this inforamtion for next time</label>
+                 </div>
+                 <h1  class="font-semibold text-2xl">Payment</h1>
+                 <div >
+                     <input type="radio">
+                 <label for="" class="ml-2">Creditcard</label>
+                 </div>
+                    <div >
+                     <input type="radio">
+                 <label for="" class="ml-2">Debitcard</label>
+                 </div>
+                    <div >
+                     <input type="radio">
+                 <label for="" class="ml-2">PayPal</label>
+                 </div>
+                 <div class="flex gap-6">
+                      <div>
+                <label for="">Name on card</label>
+                <input type="text" class="border border-gray-600 px-4 py-1 w-full">
+                </div>
+                <div>
+                      <label for="">Creditcard Number</label>
+                <input type="text"  class="border border-gray-600 px-4 py-1 w-full">
+                </div>
+                 </div>
+
+                  <div class="flex gap-6 mt-8">
+                <div class=" flex flex-col">
+                <label for="">Expiration</label>
+                <input type="text" class="border border-gray-600 px-4 py-1 w-30">
+                </div>
+                <div class=" flex flex-col">
+                      <label for="">CVV</label>
+                <input type="text"  class="border border-gray-600 px-4 py-1 w-30 ">
+                </div>
+                 </div>
+                 <button class="bg-blue-700 text-white py-1 mt-8 w-50">Continue to Checkout</button>
+
+               
+              
+
+
+                 
+                </div>
+                <div class="flex flex-col gap-8">
+                    <h1 class="text-2xl">Your Cart</h1>
+                    <div class="flex flex-col gap-2">
+
+                    <div class="flex gap-20">
+                    <h1>Product name</h1>
+                    <h1>$12</h1>
+                    </div>
+                    <p class="text-green-600">Briefdescription</p>
+
+
+                      <div class="flex gap-18">
+                    <h1>Second Product</h1>
+                    <h1>$12</h1>
+                    </div>
+                    <p class="text-green-600">Briefdescription</p>
+
+
+                        <div class="flex gap-23">
+                    <h1>Third Product</h1>
+                    <h1>$12</h1>
+                    </div>
+                    <p class="text-green-600">Briefdescription</p>
+
+
+                        <div class="flex gap-25">
+                    <h1>Promo Code</h1>
+                    <h1>$12</h1>
+                    </div>
+                    <p class="text-green-600">Briefdescription</p>
+
+                        <div class="flex gap-28">
+                    <h1>Total(USD)</h1>
+                    <h1>$12</h1>
+                    </div>
+                    <p class="text-green-600">Briefdescription</p>
+                    </div>
+                    <div class="flex gap-10">
+                    <input type="text" class="border w-30 px-2" placeholder="Promo code">
+                    <button class="bg-gray-600 text-white py-1 px-2">Redeem</button>
+                    </div>
+                    
+                </div>
+
+        </div>
+        
+    
+</body>
+</html>

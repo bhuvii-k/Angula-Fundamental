@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="flex justify-center mt-20">
+         <Form [formGroup]="formg" (ngSubmit)="onSubmit()">
+        <div class="flex flex-col w-100 gap-5 border p-5">
+        <label for="" >Name</label>
+        <input type="text" class="border" formControlName="name">
+                   <div *ngIf="formg.get('name')?.invalid && formg.get('name')?.touched" class="text-red-500">
+  Name is required
+</div>
+        <label for="" >Email</label>
+        <input type="text" class="border" formControlName="email">
+        <div *ngIf="formg.get('email')?.touched  && formg.get('email')?.invalid " class="text-red-500">
+Email is required
+        </div>
+           <label for="" >Password</label>
+        <input type="text" class="border" formControlName="password">
+      
+
+<div
+  class="text-red-500"
+  *ngIf="
+    formg.get('password')?.touched &&
+    (
+      formg.get('password')?.errors?.['required'] ||
+      formg.get('password')?.errors?.['minlength']
+    )
+  "
+>
+  Password must be at least 6 characters
+</div>
+
+ <label>Confirm password</label>
+<input type="text" class="border" formControlName="confirmpassword">
+
+<div
+  class="text-red-500"
+  *ngIf="
+    formg.get('confirmpassword')?.touched &&
+    (
+      formg.get('confirmpassword')?.errors?.['required'] ||
+      formg.get('confirmpassword')?.errors?.['minlength']
+    )
+  "
+>
+  Password must be at least 6 characters
+</div>
+
+           <label for="" >PhoneNumber</label>
+
+        <input type="text" class="border" formControlName="email">
+        <button type="submit" class="bg-blue-600 text-white w-30 py-1" >submit</button>
+        </div>
+     
+    </Form>
+    </div>
+   
+    
+</body>
+</html>
