@@ -10,7 +10,7 @@ export class Compan {
   Users=[
   {ID:1001,Name:"Stuart",Age:23,Email:"stuartlittle@gmail.com",Gender:"Male",City:"Kanyakumari",Phone:7418899002},
   {ID:1002,Name:"Bringo",Age:23,Email:"bringo@gmail.com",Gender:"Male",City:"Kanyakumari",Phone:9000012345},
-  {ID:1003,Name:"Bhuvanesh",Age:22,Email:"bhuvanesh@gmail.com",Gender:"Male",City:"Kanyakumari",Phone:9000012346},
+  {ID:1003,Name:"Bhuvanesh",Age:22,Email:"bhuvah@gmail.com",Gender:"Male",City:"Kanyakumari",Phone:9000012346},
   {ID:1004,Name:"Rahul",Age:23,Email:"rahul@gmail.com",Gender:"Male",City:"Kanyakumari",Phone:9000012347},
   {ID:1005,Name:"Bibisha",Age:25,Email:"bibisha@gmail.com",Gender:"Female",City:"Kanyakumari",Phone:9000012348},
   {ID:1006,Name:"Kural",Age:26,Email:"kural@gmail.com",Gender:"Female",City:"Kanyakumari",Phone:9000012349},
